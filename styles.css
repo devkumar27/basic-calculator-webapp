@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+h1{
+    font-weight: 100;
+    
+}
+/* buttons */
+button{
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 1.25em;
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #343a40;
+    /* border: 1px solid #343a40; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.operator{
+    background-color: #eb5e28;
+    border: 1px solid #eb5e28; 
+}
+.equals{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    color: #343a40;
+}
+.equals:hover{
+    border: 1px solid #343a40;
+    overflow:inherit;
+}
+/* ----  */
+
+.row{
+    margin: 8px 0;
+}
+
+.row .input{
+    width: 220px;
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid grey;
+    border-radius: 30px;
+    font-size: 20px;
+    background: transparent;
+    text-align: right;
+    padding-right: 30px;
+}
